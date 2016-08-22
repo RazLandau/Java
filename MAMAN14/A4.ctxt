@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=arr\ num
+comment0.target=boolean\ isFillBag2(int[],\ int)
+comment1.params=values\ i\ amount
+comment1.target=boolean\ isFillBag2(int[],\ int,\ int)
+comment1.text=\r\n\ This\ method\ uses\ recursivity\ and\ backtracking\ by\ always\ checking\ 2\ situations\:\ \r\n\ \ \ \ \ "Taking"\ the\ index\ number\ (and\ substracting\ it\ from\ the\ inspired\ sum),\ or\ NOT\ taking\ it,\ then\r\n\ \ \ \ \ uses\ a\ recursive\ call\ on\ the\ array\ without\ that\ number.\ Finally,\ prints\ the\ numbers\ that\ were\ used.\r\n\ @param\ values\ The\ given\ array\r\n\ @param\ i\ the\ index\r\n\ @param\ amount\ The\ given\ inspired\ sum\r\n
+numComments=2
