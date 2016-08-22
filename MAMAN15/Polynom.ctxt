@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Polynom()
+comment0.text=\r\n\ Constructor\ for\ a\ Polynom\r\n\ Constructs\ a\ new\ null\ Polynom\r\n
+comment1.params=p
+comment1.target=Polynom(PolyNode)
+comment1.text=\r\n\ Constructor\ for\ a\ Polynom\r\n\ Construct\ a\ new\ Polynom\ by\ setting\ given\ PolyNode\ as\ the\ head\ of\ the\ new\ Polynom\r\n\ @param\ p\ the\ given\ PolyNode\r\n
+comment2.params=p
+comment2.target=Polynom\ addNode(PolyNode)
+comment2.text=\r\n\ Adds\ a\ node\ to\ the\ Polynom\ in\ its\ proper\ place\r\n\ The\ runtime\ complexity\ of\ this\ methods\ is\ O(n).\r\n\ The\ memory\ complexity\ of\ this\ method\ is\ O(1).\r\n\ @param\ p\ the\ new\ PolyNode\r\n\ @return\ Polynom\ the\ new\ Polynom\r\n
+comment3.params=num
+comment3.target=Polynom\ multByScalar(int)
+comment3.text=\r\n\ Multiplys\ the\ Polynom\ by\ a\ scalar\r\n\ The\ runtime\ complexity\ of\ this\ method\ is\ O(n).\r\n\ The\ memory\ complexity\ of\ this\ method\ is\ O(1).\r\n\ @param\ num\ the\ scalar\r\n\ @return\ Polynom\ the\ mulitplied\ Polynom\r\n
+comment4.params=other
+comment4.target=Polynom\ addPol(Polynom)
+comment4.text=\r\n\ Adds\ a\ given\ Polynom\ to\ this\ Polynom,\ in\ the\ correct\ order\r\n\ This\ method\ uses\ merge\ sort\ of\ two\ ordered\ linked\ lists,\ so\ the\ runtime\ complexity\ of\ this\ method\ is\ O(n+m).\r\n\ The\ memory\ complexity\ of\ this\ method\ is\ O(n).\r\n\ @param\ other\ the\ added\ Polynom\r\n\ @return\ Polynom\ the\ new\ Polynom\r\n
+comment5.params=other
+comment5.target=Polynom\ multPol(Polynom)
+comment5.text=\r\n\ Multiply\ the\ Polynom\ by\ another\ Polynom\r\n\ @param\ other\ the\ Polynom\ multplied\ by\r\n\ @return\ Polynom\ the\ multiplied\ Polynom\r\n
+comment6.params=
+comment6.target=Polynom\ differential()
+comment6.text=\r\n\ Returns\ the\ differential\ of\ the\ Polynom\r\n\ The\ runtime\ complexity\ of\ this\ method\ is\ O(n).\r\n\ The\ memory\ complexity\ of\ this\ method\ is\ O(1).\r\n\ @return\ Polynom\ the\ differential\ of\ given\ Polynom\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ Returns\ a\ String\ representation\ of\ the\ Polynom\r\n\ The\ runtime\ complexity\ of\ this\ method\ is\ O(n).\r\n\ The\ memory\ complexity\ of\ this\ method\ is\ O(1).\r\n\ @param\ String\ the\ String\ representation\ of\ this\ Polynom\r\n
+numComments=8
