@@ -1,5 +1,7 @@
-
-public class Assignment02Q02 {
+/**
+* Fahrenheit to Celsuius convertor using CL
+*/
+public class Fahrenheit2Celsuius {
 	public static void main(String[] arg) {
 		for (String s : arg){
 			double fahrenheit = Double.parseDouble(s);
