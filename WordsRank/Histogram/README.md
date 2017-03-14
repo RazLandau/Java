@@ -1,1 +1,1 @@
-
+Helper class for WordsRank
