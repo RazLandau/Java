@@ -92,7 +92,7 @@ public class ArrayUtils {
 	/*
 	 * @param array - Array of ints
 	 * 
-	 * @return New array where new_array[i] = old_array[i+1]
+	 * @return New array where new_array[i] = old_array[i]+i
 	 */
 	public static int[] incArray(int[] array) {
 		int[] result = new int[array.length];
