@@ -1,5 +1,7 @@
-
-public class Assignment02Q03 {
+/*
+* Print counts for each char in string/s given by the user by CL by order of appearance
+*/
+public class CountCharsAppearances {
 	public static void main(String[] arg) {
 		
 		String str = uniqChars(arg);
