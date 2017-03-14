@@ -9,7 +9,21 @@
  */
 public class A3
 {
-    public static int stain2 (char [][] mat, int row, int col)
+ 
+     public static void main (String[] args){
+        
+        char [][] stainMat={
+        {' ','x',' ',' ','x'},
+        {'x',' ',' ','x','x'},
+        {' ',' ','x','x',' '},
+        {'x',' ',' ',' ',' '},
+        {'x','x','x',' ',' '}};
+
+        System.out.println("Question 3\n=============");              
+        System.out.println("3) stain method output is: " +  A3.stain2(stainMat,1,8) + "  while the answer is: 5\n");
+    }
+ 
+ public static int stain2 (char [][] mat, int row, int col)
     {
         // Base case of recursivity is any bound of the Matrix or an empty square (order matters)
         // (Impotant to mention: Coordinateds given outside Matrix boundries will return 0 as well [Didn't know whether I should add a failure message])
