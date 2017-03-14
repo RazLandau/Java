@@ -1,5 +1,8 @@
 package bus_tickets;
 
+/**
+* Prints summary of different bus ticket types
+/*
 public class Main {
 
 	private final static float BASE_PRICE_PER_DAY = 2.0f;
