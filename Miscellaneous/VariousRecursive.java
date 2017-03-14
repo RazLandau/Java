@@ -1,11 +1,5 @@
 
-/**
- * Write a description of class Ex14 here.
- * 
- * @author Inbal Orbach 
- * @version 3/1/2013
- */
-public class Ex14
+public class VariousRecursive
 {
        
     /**
