@@ -1,7 +1,9 @@
 
 
-
-public class Assignment02Q01Sec02 {
+/**
+* Prints 2 max doubles from doubles given by CL 
+*/
+public class Print2MaxDoubles {
 	public static void main (String[] arg){
 		if (arg.length == 0){
 			return;
