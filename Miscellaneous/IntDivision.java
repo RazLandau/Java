@@ -1,5 +1,7 @@
-
-public class Assignment1 {
+/**
+* Prints division result of 2 ints from CL
+*/
+public class IntDivision {
 	public static void main (String[] arg){
 		int numerator	= Integer.parseInt(arg[0]);
 		int denominator	= Integer.parseInt(arg[1]);
