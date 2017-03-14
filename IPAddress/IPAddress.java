@@ -33,10 +33,10 @@ public interface IPAddress {
 	/**
 	* There are four classes of private networks
 	* (http://en.wikipedia.org/wiki/IPv4#Private_networks)
-	* 10.0.0.0 – 10.255.255.255
-	* 172.16.0.0 – 172.31.255.255
-	* 192.168.0.0 – 192.168.255.255
-	* 169.254.0.0 – 169.254.255.255
+	* 10.0.0.0 â€“ 10.255.255.255
+	* 172.16.0.0 â€“ 172.31.255.255
+	* 192.168.0.0 â€“ 192.168.255.255
+	* 169.254.0.0 â€“ 169.254.255.255
 	*
 	* This query returns true if this object is a private network address
 	*/
