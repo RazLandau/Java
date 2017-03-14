@@ -1,5 +1,7 @@
-
-public class Assignment02Q01Sec03 {
+/**
+* Prints the number of ints given by the user by CL that are divisible by 6
+*/
+public class Count6Divisibles {
 	public static void main(String[] arg) {
 		int count = 0;
 		for (String s : arg) {
