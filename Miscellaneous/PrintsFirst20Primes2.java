@@ -1,10 +1,9 @@
 import java.util.Arrays;
 
-
-
-
-
-public class Assignment02Q05 {
+/*
+* Prints first 20 primes
+*/
+public class PrintsFirst20Primes2 {
 	public static void main(String[] arg) {
 		int[] primes = new int[20];
 		primes[0] = 2;
